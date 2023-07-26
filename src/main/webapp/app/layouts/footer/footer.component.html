@@ -1,3 +1,18 @@
 <div class="footer">
-  <p jhiTranslate="footer">Đây là chân trang của bạn</p>
+  <div style="text-align: center;">
+    <button class="rounded-button social-item" (click)="openLink('https://github.com/kunboy1608')">
+      <span> <img src="/content/images/logo-github.png" width="50" />
+        <span>kunboy1608</span></span>
+    </button>
+    <button class="rounded-button social-item" (click)="openLink('https://www.facebook.com/jeremy.1608')">
+      <img src="/content/images/logo-facebook.png" width="50" />
+      <span>Hoàng DP</span>
+    </button>
+    <button class="rounded-button social-item" (click)="openLink('mailto:heodatsupport@hoangdp.com')">
+      <img src="/content/images/logo-gmail.png" width="50" />
+      <span>heodatsupport@hoangdp.com</span>
+    </button>
+    
+    <p jhiTranslate="footer.copyright"></p>
+  </div>
 </div>
