@@ -36,4 +36,8 @@ export default class HomeComponent implements OnInit, OnDestroy {
     this.destroy$.next();
     this.destroy$.complete();
   }
+
+  openLink(url: string) {
+    window.open(url, '_blank')
+  }
 }
